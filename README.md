@@ -15,5 +15,5 @@ Um aplicativo web simples e elegante de Lista de Tarefas (To-Do List) desenvolvi
 * **CSS3:** Flexbox para alinhamento, variáveis de cores, estilização de botões e múltiplos backgrounds.
 * **JavaScript (ES6+):** Manipulação do DOM, Event Listeners e lógica de array de objetos.
 
-* Link para acesso: # 📝 Lista de Tarefas (To-Do List)
+# 📝 Lista de Tarefas (To-Do List)
 🔗 **[Clique aqui para acessar o projeto online!](https://jonnascipriano.github.io/to-do-list/)**

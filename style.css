@@ -147,17 +147,48 @@ footer a{
     text-decoration: none;
 }
 
-@media (max-width: 600px){
-
-    body{
-        height: 100vh;
+/* =========================================
+   📱 RESPONSIVIDADE PARA CELULARES
+   ========================================= */
+@media (max-width: 768px) {
+    
+    /* 1. Removemos as imagens laterais para limpar a tela e facilitar a leitura */
+    body {
+        background-image: none;
     }
 
-    header{
+    /* 2. Diminuímos um pouco o título para não quebrar a linha de forma estranha */
+    #cabecalho h1 {
+        font-size: 2.2rem;
         text-align: center;
     }
 
-    form input{
+    /* 3. Diminuímos as margens laterais do main para aproveitar bem o espaço da tela */
+    main {
+        padding: 15px;
         width: 100%;
+    }
+
+    /* 4. Ajustamos o formulário para ocupar a largura total disponível */
+    form {
+        width: 100%;
+        gap: 10px; /* Reduz o espaço entre o input e o botão */
+        padding: 15px;
+    }
+
+    /* 5. A mágica acontece aqui: tiramos os 400px fixos e deixamos flexível */
+    form input {
+        width: 100%; /* Ocupa 100% do espaço que sobrar no form */
+        flex: 1; /* Permite que o input estique, empurrando o botão pro cantinho */
+    }
+
+    /* 6. Ajustamos o tamanho dos botões e tarefas para o toque do dedo (Touch Target) */
+    .tarefa {
+        padding: 15px 10px; /* Um pouco mais alto para facilitar o clique */
+    }
+    
+    /* Previne que o footer sobreponha a última tarefa da lista */
+    #lista-tarefas {
+        margin-bottom: 80px; 
     }
 }

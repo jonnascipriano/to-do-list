@@ -48,6 +48,7 @@ adicionarTarefa.addEventListener("click", (event) => {
             }, 400)
         })
 
+        // Limpa o campo de entrada após adicionar a tarefa
         novaTarefa.value = "";
     } else {
         // Exibe um alerta se a tarefa estiver vazia

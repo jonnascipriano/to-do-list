@@ -148,13 +148,13 @@ footer a{
 }
 
 /* =========================================
-   📱 RESPONSIVIDADE PARA CELULARES
+    📱 RESPONSIVIDADE PARA CELULARES
    ========================================= */
 @media (max-width: 768px) {
     
     /* 1. Removemos as imagens laterais para limpar a tela e facilitar a leitura */
     body {
-        background-image: none;
+        background-blend-mode: color-burn;
     }
 
     /* 2. Diminuímos um pouco o título para não quebrar a linha de forma estranha */

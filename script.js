@@ -39,9 +39,13 @@ adicionarTarefa.addEventListener("click", (event) => {
         })
 
         // Adiciona o evento de clique para excluir a tarefa
+        // Adiciona uma classe de animação para a remoção suave
         const botaoExcluir = tarefaItem.querySelector('button')
         botaoExcluir.addEventListener('click', () => {
-            tarefaItem.remove();
+            tarefaItem.classList.add('removendo');
+            setTimeout(() => {
+                tarefaItem.remove();
+            }, 400)
         })
 
         novaTarefa.value = "";

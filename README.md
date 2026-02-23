@@ -17,7 +17,7 @@ Um aplicativo web simples e elegante de Lista de Tarefas (To-Do List) desenvolvi
 
 * <img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/5471c549-8d2c-4807-982e-e2ba6bb7df8e" />
 
-* <img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/8d1e1c59-f9f1-4b50-9b99-56ed1fa6e2be" />
+* <img width="916" height="1918" alt="image" src="https://github.com/user-attachments/assets/8d1e1c59-f9f1-4b50-9b99-56ed1fa6e2be" />
 
 
 
